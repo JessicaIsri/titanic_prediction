@@ -61,7 +61,7 @@ This project aims to predict the survival of passengers on the Titanic using var
 - **Accuracy Score (without scaling)**: 0.8101
 - **Accuracy Score (with StandardScaler)**: 0.8101
 - **Confusion Matrix (without scaling)**:
-  ```
+  ``` bash
   [[90 15]
    [19 55]]
   ```
@@ -74,19 +74,19 @@ This project aims to predict the survival of passengers on the Titanic using var
 
     accuracy                           0.81       179
    macro avg       0.81      0.80      0.80       179
-weighted avg       0.81      0.81      0.81       179
+  weighted avg       0.81      0.81      0.81       179
   ```
 
 ### 5.2 Decision Tree
 - **Model**: `DecisionTreeClassifier(max_depth=3, random_state=42)`
 - **Accuracy Score**: 0.7989
 - **Confusion Matrix**:
-  ```
+  ``` bash
   [[92 13]
    [23 51]]
   ```
 - **Classification Report**:
-  ```
+  ```bash
                 precision    recall  f1-score   support
 
            0       0.80      0.88      0.84       105
@@ -94,7 +94,7 @@ weighted avg       0.81      0.81      0.81       179
 
     accuracy                           0.80       179
    macro avg       0.80      0.78      0.79       179
-weighted avg       0.80      0.80      0.80       179
+  weighted avg       0.80      0.80      0.80       179
   ```
 - A visualization of the Decision Tree logic was generated.
 
@@ -107,7 +107,7 @@ weighted avg       0.80      0.80      0.80       179
    [23 51]]
   ```
 - **Classification Report**:
-  ```
+  ```bash
                 precision    recall  f1-score   support
 
            0       0.81      0.90      0.85       105
@@ -115,8 +115,8 @@ weighted avg       0.80      0.80      0.80       179
 
     accuracy                           0.82       179
    macro avg       0.82      0.80      0.80       179
-weighted avg       0.82      0.82      0.81       179
-  ```
+  weighted avg       0.82      0.82      0.81       179
+  ``` 
 
 ### 5.4 XGBoost
 - **Model**: `XGBClassifier(n_estimators=100, learning_rate=0.1, max_depth=3, random_state=42)`
@@ -127,7 +127,7 @@ weighted avg       0.82      0.82      0.81       179
    [21 53]]
   ```
 - **Classification Report**:
-  ```
+  ``` bash
                 precision    recall  f1-score   support
 
            0       0.82      0.90      0.85       105
@@ -135,7 +135,7 @@ weighted avg       0.82      0.82      0.81       179
 
     accuracy                           0.82       179
    macro avg       0.82      0.81      0.81       179
-weighted avg       0.82      0.82      0.82       179
+  weighted avg       0.82      0.82      0.82       179
   ```
 
 ## Conclusion
